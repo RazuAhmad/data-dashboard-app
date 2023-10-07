@@ -12,7 +12,7 @@ import MoreFeatureArea from './MoreFeatureArea';
 
 const Sidebar = () => {
     return (
-        <Box sx={{ backgroundColor: 'rgb(28, 37, 54)', height: '100vh', overflowY: 'auto' }}>
+        <Box sx={{ backgroundColor: 'rgb(28, 37, 54)', height: '100vh', overflowY: 'auto', position: 'fixed', left: 0, top: 0 }}>
             <Stack flexDirection='column' >
                 <SidebarHeading />
                 <SidebarMenuArea />

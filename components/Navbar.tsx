@@ -10,7 +10,7 @@ import UserProfileArea from './UserProfileArea';
 const Navbar = () => {
     return (
         <nav className=''>
-            <Stack flexDirection='row' justifyContent='space-between' alignItems='center' sx={{ paddingX: "16px", minHeight: '64px' }} >
+            <Stack flexDirection='row' justifyContent='space-between' alignItems='center' sx={{ paddingRight: "16px", minHeight: '64px' }} >
                 <Button sx={{ borderRadius: '100%' }}><SearchIcon sx={{ fontSize: '1.50rem', color: 'gray' }} /></Button>
                 <UserProfileArea />
             </Stack>

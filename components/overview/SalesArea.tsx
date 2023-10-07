@@ -6,7 +6,7 @@ import OverviewButtonArea from './OverviewButtonArea'
 
 const SalesArea = () => {
     return (
-        <Paper sx={{ paddingTop: '32px' }}>
+        <Paper sx={{ paddingTop: '32px', flex: '1' }}>
             <SalesAreaHeader />
             <SalesChart />
             <OverviewButtonArea />

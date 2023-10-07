@@ -12,7 +12,7 @@ import Link from 'next/link'
 
 const SidebarMenuArea = () => {
     return (
-        <Box sx={{ paddingX: '16px', paddingY: "24px", borderBottom: '1px solid #525050;' }}>
+        <Box sx={{ paddingX: '16px', paddingY: "24px", borderBottom: '1px solid #525050;', paddingBottom: '100px' }}>
             <Link href='/overview'>
                 <Stack flexDirection="row" gap='16px' alignItems='center' paddingY="6px" paddingX="16px" sx={{
                     ":hover": {

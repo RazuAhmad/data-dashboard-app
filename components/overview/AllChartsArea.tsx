@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Grid, Paper, Typography } from '@mui/material'
+import { Box, Grid, Paper, Stack, Typography } from '@mui/material'
 import React from 'react'
 import SalesArea from './SalesArea'
 import Image from 'next/image'
@@ -11,20 +11,19 @@ import DeviceStatistics from './DeviceStatistics'
 
 const AllChartsArea = () => {
     return (
-        <Box sx={{ paddingY: '12px' }}>
+        <Box sx={{ paddingY: '12px', marginBottom: '12px' }}>
 
-            <div className="flex">
+            <Stack flexDirection='row' columnGap='35px'>
                 <SalesArea />
 
-
-                <Paper className=" flex-1 ">
+                <Paper className="">
                     <Typography variant='body1' fontFamily='Plus Jakarta Sans' fontSize={18} fontWeight={700} padding="32px 24px 16px">Traffic Source</Typography>
                     <TrafficPieChart />
                     <DeviceStatistics />
                 </Paper>
 
 
-            </div>
+            </Stack>
         </Box>
     )
 }

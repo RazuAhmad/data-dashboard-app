@@ -23,7 +23,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
 
 const OverviewHeader = () => {
     return (
-        <Stack flexDirection={'row'} justifyContent={'space-between'} gap={4}>
+        <Stack flexDirection={'row'} justifyContent={'space-between'} gap={4} marginBottom={2}>
             <Paper sx={{ paddingX: '24px', paddingY: '32px', flex: '1' }}>
                 <Stack flexDirection='row' justifyContent={'space-between'} marginBottom={2}>
                     <Box>
